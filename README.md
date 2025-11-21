@@ -4,7 +4,6 @@
 Ett litet proof-of-concept som demonstrerar hur ett TGML-liknande widgetsystem kan implementeras i en modern React-miljö. Fokus ligger på konfigurationsdriven rendering, datakopplade vektorwidgets och realtidsuppdatering.
 
 ## Funktionalitet
----
 **JSON-baserad widget-konfiguration**
 Varje widget definieras i en konfigfil med type, position och datapunkt.
 
@@ -22,7 +21,6 @@ Layout + datapunktbindning + komponenttyp hanteras via konfiguration, inte hård
 
 
 ## Stack
----
 * React
 * TypeScript
 * Vite
