@@ -4,19 +4,19 @@
 Ett litet proof-of-concept som demonstrerar hur ett TGML-liknande widgetsystem kan implementeras i en modern React-miljö. Fokus ligger på konfigurationsdriven rendering, datakopplade vektorwidgets och realtidsuppdatering.
 
 ## Funktionalitet
-**JSON-baserad widget-konfiguration**
+**JSON-baserad widget-konfiguration**    
 Varje widget definieras i en konfigfil med type, position och datapunkt.
 
-**SVG-baserade widgets**
+**SVG-baserade widgets**    
 Widgets renderas som vektorobjekt (likt TGML-komponenter).
 
-**Realtidsdatastream**
+**Realtidsdatastream**    
 En mockad datakälla skickar temperaturvärden var 1.5 sekund.
 
-**Automatisk uppdatering**
+**Automatisk uppdatering**    
 Widgets är helt synkade med inkommande värden och uppdateras utan manuell hantering.
 
-**TGML-lik arkitektur**
+**TGML-lik arkitektur**    
 Layout + datapunktbindning + komponenttyp hanteras via konfiguration, inte hårdkodade komponenter.
 
 
