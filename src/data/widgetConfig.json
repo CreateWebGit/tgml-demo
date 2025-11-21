@@ -1,0 +1,22 @@
+{
+	"widgets": [
+		{
+			"type": "FanWidget",
+			"x": 50,
+			"y": 50,
+			"dataPoint": "AHU1_FanStatus"
+		},
+		{
+			"type": "TemperatureWidget",
+			"x": 165,
+			"y": 90,
+			"dataPoint": "Room1_Temp"
+		},
+		{
+			"type": "AlarmIndicator",
+			"x": 280,
+			"y": 55,
+			"dataPoint": "Alarm_A1"
+		}
+	]
+}
